@@ -1,0 +1,363 @@
+body {
+    position: relative;
+    font-family: roboto,Helvetica,sans-serif;
+    color: hsl(0, 0%, 26%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/main.png');
+    height: 100%;
+    width: 95%;
+    font-size: 15px;
+    line-height: 1.6em;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+    .navbar{
+        margin-top: 30px;
+    }
+    .navbar span{
+    color: #49515d;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: montserrat,Helvetica,sans-serif;
+    line-height: 1;
+    margin: 38px 0 0;
+    opacity: .6;
+    
+    }
+    
+    .navbar .brand{
+    margin-left: 60px;
+    
+    
+    }
+    
+    
+    .navbar span .coloredbrand{
+    color: #2eca7f;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    
+    }
+    .navbar-nav li a, .navbar-nav li a:hover {
+    display: block;
+    position: relative;
+    margin-left: 60px;
+    color: #49515d;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400px;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    margin: 38px 0 0;
+    opacity: .6;
+    margin-left: 38px;
+    }
+    
+    /* @media only screen and (max-width: 991px){
+    .navbar-nav li a, .navbar-nav li a:hover {
+    
+    padding: 15px 10px;
+    margin: 0;
+    display: flex;
+    }} */
+    .navbar-nav{
+        margin-right: 100px;
+        
+    }
+    .navbar-nav{
+        margin-right: 100px;
+    }
+    
+    #box-container {
+    background-color: #ffffff;
+    display:block;
+    height: 900px;
+    margin-left: 78px;
+    margin-top: 38px;
+    border-radius: 8px;
+    width: 95%;
+    
+    
+    
+    }
+    #box-1 {
+    background-color: #2eca7f;
+    height: 15%;
+    width: 100%;
+    border-bottom: none;
+    display: inline-flex;
+    }
+    #box-1 h1{
+        color: #ffffff;
+        margin: auto;
+    }
+
+    #container ul {
+        list-style-type: none;
+       margin-top: 30px;
+        padding: 0;
+        overflow: hidden;
+       
+        
+        margin-left:42%;
+      }
+      
+      #container ul li {
+        float: left;
+        
+      }
+      
+      #container ul li a {
+        display: block;
+        color: #9e9e9e;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+    #allres{
+       margin-left: 160px; 
+    }  
+      div.gallery {
+        margin: 3px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 310px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+    
+   
+    
+    .btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+    background-color: #fff;
+    color: #212121;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 2px 4px rgb(0 0 0 / 30%);
+    margin-top: 280px;
+    margin-left: 5rem;
+    }
+
+    .about{
+    width: 50%;
+    }
+    .age{
+    width: 50%;
+    
+    }
+    .age table{
+    float: right;
+    margin-top: 110px;
+    margin-right: 180px;
+    
+    }
+    .age table tr td{
+    padding-left: 100px;
+    
+    }
+    /* services */
+    #container h2,h3{
+      margin:60px;
+      color: #212121;
+      font-weight: 400px;
+    }
+    .coloredservice{
+      color: #2eca7f;
+    }
+    #serviceimages{
+      display: flex;
+      margin-left: 90px;
+      
+    }
+    #serviceimage{
+      background-color:#fafafa;
+      width: 100%;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 90px;
+      text-align: center;
+    }
+    #serviceimage img{
+      width: 60px;
+      height: 60px;
+      margin-top: 20px;
+    }
+    .serviceimagetitle{
+      margin-top: 40px;
+      color: black;
+    }
+    .serviceimagedesc{
+      width: 100%;
+    }
+    #clientimages{
+      display: flex;
+      margin-left: 60px;
+      margin-top: 30px;
+      
+    }
+    #clientimage{
+
+      margin: 0 50px;
+      
+    }
+    #clientimage img{
+      width: 80px;
+      color: #49515d;
+      
+    }
+    legend{
+      text-align: center;
+    }
+    fieldset{
+      width: 250px;
+      margin: 0 80px;
+    }
+
+    .testimonials{
+    display: flex;
+      
+    }
+    #box-containerservice {
+      background-color: #ffffff;
+      display:block;
+      height: 1200px;
+      margin-left: 78px;
+      margin-top: 38px;
+      border-radius: 8px;
+      width: 95%;
+      
+      
+      
+      }
+
+    /* contact */
+    #box-containercontact {
+      background-color: #ffffff;
+      display:block;
+      height: 800px;
+      margin-left: 78px;
+      margin-top: 38px;
+      border-radius: 8px;
+      width: 95%;
+      
+      
+      
+      }
+    #allcontactdiv{
+      display: flex;
+      
+      
+    }
+    #contactform h3{
+     
+      margin-left: 100px;
+      margin-top: 40px;
+    }
+
+    #getintouch h3{
+      float: left;
+      margin-left: 50px;
+      margin-top: 40px;
+    }
+    #map iframe{
+      margin-top: 40px;
+      margin-left: 50px;
+
+    }
+  #contacticons{
+    display: block;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 50%;
+
+   
+  }
+  #contacticons-bg{
+    background-color:#fafafa;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: flex;
+    
+   
+   
+  }
+  #contacticons-bg h6,p{
+   margin-left: 30px;
+    
+} 
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border:none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline:0;
+  border-bottom: 1px solid #9e9e9e;
+}
+
+input[type=submit] {
+  background-color: #2eca7f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contactform {
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  margin-left: 30px;
+} 
+.imputicons{
+  display: flex;
+} 
+#recaptcha{
+  width: 350px;
+  display: flex;
+  border: 1px solid #9e9e9e;
+  margin-left: 30px;
+}
+#recaptcha img{
+  margin-left: 200px;
+  
+}
+input.largerCheckbox {
+  transform : scale(2);
+  margin-left: 30px;
+}
+
+  
+    
